@@ -14,7 +14,7 @@ public class HelixManager : MonoBehaviour
     private void Start()
     {
 
-        noOfRings = GameManager.CurrentLevelIndex + 5;
+        noOfRings = 1 + GameManager.CurrentLevelIndex;
 
         for (int i = 0; i < noOfRings; i++)
         {

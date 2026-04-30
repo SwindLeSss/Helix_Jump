@@ -9,7 +9,7 @@ public class HelixRotator : MonoBehaviour
 
     private void Update() {
         
-        #if UNITY_EDITOR
+        #if UNITY_EDITOR || UNITY_STANDALONE
             
             if(Input.GetMouseButton(0)) {
                 float mouseX = Input.GetAxisRaw("Mouse X");
